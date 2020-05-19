@@ -48,8 +48,7 @@ int main()
             btotal += bthis;
             if (l < r)++moves;
             aprev = athis;
-            bprev = bthis;
-        }
+            bprev = bthis;        }
         cout << moves << " " << atotal << " " << btotal << endl;
     }
     return 0;

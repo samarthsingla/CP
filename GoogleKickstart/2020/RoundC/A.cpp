@@ -1,6 +1,6 @@
-//Problem Name: $1
-//Link: $2
-//Date: $3
+// Problem Name: 
+// Link: 
+//Date: 
 #include <bits/stdc++.h>
 using namespace std;
 #define f(i, s, e) for(int i = s; i < e; i++)
@@ -8,9 +8,6 @@ using namespace std;
 #define ull unsigned long long
 #define aa first
 #define bb second
-#define vi vector<int>
-#define v vector
-
 
 int main() {
     ios::sync_with_stdio(false);
@@ -18,11 +15,12 @@ int main() {
     #ifndef ONLINE_JUDGE 
     freopen("input.txt", "r", stdin); 
     freopen("error.txt", "w", stderr); 
-   	freopen("output.txt", "w", stdout); 
+    freopen("output.txt", "w", stdout); 
     #endif
     int t = 1; cin >> t; 
     while(t--){
-        //$4
+         int ch; cin >> ch; 
+         cout << ch;
     }
     return 0;
 }
