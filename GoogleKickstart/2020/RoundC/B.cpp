@@ -30,7 +30,7 @@ int main()
         int inc[26];  //stores the incoming edges of nodes
         queue<int> S; // set S of all active nodes
         vi ans;       //our answer to be printed
-        vi adjl[26];
+        vi adjl[26]; //vectors containing neighbours of node i
         f(i, 0, 26) inc[i] = 0;
         f(i, 0, 26)
         {
@@ -99,6 +99,7 @@ int main()
         cout << "Case #"<<T-t<<": ";
         if (N != 0)
         {
+            //N hai 
             cout << -1 << endl;
         }
         else

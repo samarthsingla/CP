@@ -10,7 +10,7 @@ using namespace std;
 #define bb second
 #define vi vector<int>
 #define v vector
-
+#define p pair
 
 int main() {
     ios::sync_with_stdio(false);
